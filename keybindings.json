@@ -1,0 +1,115 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // File Management
+    {
+        "key": "space s",
+        "command": "workbench.action.files.save",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space n",
+        "command": "workbench.action.files.newUntitledFile",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space o",
+        "command": "workbench.action.files.openFile",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    // Window Management
+    {
+        // Delete keybinding for consistency with default Code binding.
+        "key": "space w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        // Delete keybinding for consistency with default Spacemacs binding.
+        "key": "space d",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space /",
+        "command": "workbench.action.splitEditor",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space 1",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+        {
+        "key": "space 2",
+        "command": "workbench.action.focusSecondEditorGroup",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space 3",
+        "command": "workbench.action.focusThirdEditorGroup",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space h",
+        "command": "workbench.action.moveActiveEditorGroupLeft",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space l",
+        "command": "workbench.action.moveActiveEditorGroupRight",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space ]",
+        "command": "workbench.action.openNextRecentlyUsedEditorInGroup",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space [",
+        "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    // Rich Languages Editing
+    {
+        "key": "space =",
+        "command": "editor.action.format",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space g",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space r",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    // Task 
+    {
+        "key": "space b",
+        "command": "editor.action.tasks.build",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space t",
+        "command": "editor.action.tasks.test",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    // Display
+    {
+        "key": "space -",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space 0",
+        "command": "workbench.view.explorer",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode'"
+    },
+    {
+        "key": "space p",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorTextFocus && vim.mode != 'Insert Mode' && editorLangId == markdown" 
+    }
+]
