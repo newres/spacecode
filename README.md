@@ -1,4 +1,4 @@
 A Spacemacs like keybinding setup for Visual Studio Code
 =========================================================
 
-Currently somewhat limited by the lack of longer chords and possible bindings for the Explorer area, but should be decently usable already. Requires the Vim extension from the marketplace to function. 
+Requires the Vim extension from the marketplace to function. Keys for the explorer mode have been added. Somewhat limitied by the lack of longer chords, but many aspects of using space as the leader key have been implemented.
