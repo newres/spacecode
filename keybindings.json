@@ -200,18 +200,18 @@
         "when": "explorerViewletFocus"
     },
     {
-        "key": "1",
+        "key": "space 1",
         "command": "workbench.action.focusFirstEditorGroup",
-        "when": "explorerViewletFocus"
+        "when": "!(terminalFocus) && !(editorTextFocus) && vim.mode != 'Insert'"
     },
     {
-        "key": "2",
+        "key": "space 2",
         "command": "workbench.action.focusSecondEditorGroup",
-        "when": "explorerViewletFocus"
+        "when": "!(terminalFocus) && !(editorTextFocus) && vim.mode != 'Insert'"
     },
     {
-        "key": "3",
+        "key": "space 3",
         "command": "workbench.action.focusThirdEditorGroup",
-        "when": "explorerViewletFocus"
+        "when": "!(terminalFocus) && !(editorTextFocus) && vim.mode != 'Insert'"
     }
 ]
