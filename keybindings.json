@@ -35,6 +35,11 @@
         "when": "editorTextFocus && vim.mode != 'Insert'"
     },
     {
+        "key": "space u",
+        "command": "workbench.action.reopenClosedEditor",
+        "when": "editorTextFocus && vim.mode != 'Insert'"
+    },
+    {
         "key": "space 1",
         "command": "workbench.action.focusFirstEditorGroup",
         "when": "editorTextFocus && vim.mode != 'Insert'"
@@ -51,22 +56,22 @@
     },
     {
         "key": "space h",
-        "command": "workbench.action.moveEditorLeftInGroup",
+        "command": "workbench.action.previousEditor",
         "when": "editorTextFocus && vim.mode != 'Insert'"
     },
     {
         "key": "space l",
-        "command": "workbench.action.moveEditorRightInGroup",
+        "command": "workbench.action.nextEditor",
         "when": "editorTextFocus && vim.mode != 'Insert'"
     },
     {
         "key": "space shift+h",
-        "command": "workbench.action.moveActiveEditorGroupLeft",
+        "command": "workbench.action.moveEditorLeftInGroup",
         "when": "editorTextFocus && vim.mode != 'Insert'"
     },
     {
         "key": "space shift+l",
-        "command": "workbench.action.moveActiveEditorGroupRight",
+        "command": "workbench.action.moveEditorRightInGroup",
         "when": "editorTextFocus && vim.mode != 'Insert'"
     },
     {
